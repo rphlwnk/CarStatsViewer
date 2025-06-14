@@ -37,17 +37,17 @@ android {
 
         legacy {
             dimension "aaos"
-            applicationId "com.ixam97.carStatsViewer"
+            applicationId "com.rphlwnk.carStatsViewer"
         }
 
         carapp {
             dimension "aaos"
-            applicationId "de.ixam97.carStatsViewer.carApp"
+            applicationId "de.rphlwnk.carStatsViewer.carApp"
         }
 
         dev {
             dimension "version"
-            applicationId "com.ixam97.carStatsViewer_dev"
+            applicationId "com.rphlwnk.carStatsViewer_dev"
             resValue("string","useFirebase", firebase.toString())
         }
     }
